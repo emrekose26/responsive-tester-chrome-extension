@@ -1,0 +1,24 @@
+{  
+	"name": "Responsive Tester", 
+	"author":"Emre Köse",
+	"version": "1.0",  
+	"manifest_version": 2,  
+	"description": "Test responsive web desings or mobile pages and test for multiple devices",  
+	"browser_action": {    
+		"default_icon": {
+			"16": "assert/icon_16.png",
+			"32":"assert/icon_32.png",
+			"48": "assert/icon_48.png",
+			"64" : "assert/icon_64.png",
+			"128": "assert/icon_128.png"
+			},    
+		"default_popup" : "index.html"
+		},
+		"icons":{
+			"16": "assert/icon_16.png",
+			"32":"assert/icon_32.png",
+			"48": "assert/icon_48.png",
+			"64" : "assert/icon_64.png",
+			"128": "assert/icon_128.png"
+			} ,
+	"permissions": ["tabs"]}
